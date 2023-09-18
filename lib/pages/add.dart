@@ -45,6 +45,7 @@ class _AddState extends State<Add> {
   String getText() {
     if (date == datechecker) {
       isdateValid = false;
+
       return 'Date';
     } else {
       isdateValid = true;
